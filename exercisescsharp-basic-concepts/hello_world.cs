@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace exercises_csharp_basic_concepts
 {
     class Hello_world
