@@ -1,4 +1,5 @@
 ﻿using System;
+using exercisescsharp_basic_concepts;
 
 namespace exercises_csharp_basic_concepts
 {
@@ -6,8 +7,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            Hello_world hello = new Hello_world();
-            hello.PrintHelloWorld();
+            ReadingUserInput favColor = new ReadingUserInput();
+            favColor.GetColor();
             
         }
     }
