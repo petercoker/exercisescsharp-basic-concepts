@@ -10,7 +10,6 @@ namespace exercises_csharp_basic_concepts
         {
             Sum num = new Sum();
             Console.WriteLine(num.Add(2, 3));
-
         }
     }
 }
