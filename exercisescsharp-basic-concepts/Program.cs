@@ -1,4 +1,6 @@
-﻿using exercisescsharp_basic_concepts;
+﻿using System;
+using System.Runtime.InteropServices;
+using exercisescsharp_basic_concepts;
 
 namespace exercises_csharp_basic_concepts
 {
@@ -6,9 +8,9 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            ReadingUserInput favColor = new ReadingUserInput();
-            favColor.GetColor();
-            
+            Sum num = new Sum();
+            Console.WriteLine(num.Add(2, 3));
+
         }
     }
 }
