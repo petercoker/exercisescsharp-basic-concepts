@@ -13,7 +13,7 @@ namespace exercises_csharp_basic_concepts
             }
             else
             {
-                Console.WriteLine(a/b);
+                Console.WriteLine(a / b);
             }
         }
     }
