@@ -8,8 +8,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            Sum num = new Sum();
-            Console.WriteLine(num.Add(2, 3));
+            Division div = new Division();
+            div.GetDivide(0, 5);
         }
     }
 }
