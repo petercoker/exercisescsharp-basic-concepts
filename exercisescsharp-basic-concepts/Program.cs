@@ -8,9 +8,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-
-            Formats formats = new Formats();
-            formats.PrintName();
+            Formats format = new Formats();
+            format.PrintName();
         }
     }
 }
