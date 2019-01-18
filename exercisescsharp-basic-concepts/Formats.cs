@@ -10,9 +10,9 @@ namespace exercises_csharp_basic_concepts
         {
            name = Console.ReadLine();
         
-           Console.Write($"Hello {name}");
-           Console.WriteLine("Hello " + name);
-           Console.WriteLine("Hello {0}", name);
+           Console.Write($"Hello {name}!");
+           Console.WriteLine("Hello " + name + "!");
+           Console.WriteLine("Hello {0}!", name);
         }
     }
 }
