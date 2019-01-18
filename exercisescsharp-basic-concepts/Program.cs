@@ -8,9 +8,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            
-            Remainder remainder = new Remainder();
-            remainder.GetRemainder(0, 10);
+            Formats formats = new Formats();
+            formats.PrintName();
         }
     }
 }
