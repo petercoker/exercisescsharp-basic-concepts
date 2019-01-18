@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 
 namespace exercises_csharp_basic_concepts
 {
-    class Formats
+    public class Formats
     {
-        public void PrintName(string name)
+        public void PrintName()
         {
-           name = Console.ReadLine();
+           string name = Console.ReadLine();
         
            Console.Write($"Hello {name}!");
            Console.WriteLine("Hello " + name + "!");
