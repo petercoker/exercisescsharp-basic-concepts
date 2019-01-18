@@ -8,11 +8,12 @@ namespace exercises_csharp_basic_concepts
     {
         public void PrintName()
         {
+           Console.Write("What is your name: ");
            string name = Console.ReadLine();
-        
-           Console.Write($"Hello {name}!");
-           Console.WriteLine("Hello " + name + "!");
-           Console.WriteLine("Hello {0}!", name);
+
+            Console.Write("Hello " + name + "!\n");
+            Console.WriteLine($"Hello {name}!");
+            Console.WriteLine("Hello {0}!", name);
         }
     }
 }
