@@ -9,8 +9,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            Comment format = new Comment();
-            format.Hide();
+            multiple_operations multiple = new multiple_operations();
+            multiple.GetMutliple();
 
         }
     }
