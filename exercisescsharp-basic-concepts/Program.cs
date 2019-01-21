@@ -9,8 +9,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            multiple_operations multiple = new multiple_operations();
-            multiple.GetMutliple();
+            Multiply_Variable multiply = new Multiply_Variable();
+            Console.WriteLine(multiply.Multi(3, 4));
 
         }
     }

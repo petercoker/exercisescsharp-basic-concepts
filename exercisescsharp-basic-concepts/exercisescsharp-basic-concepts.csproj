@@ -51,6 +51,7 @@
     <Compile Include="Formats.cs" />
     <Compile Include="hello_world.cs" />
     <Compile Include="Multiple-operations.cs" />
+    <Compile Include="Multiply-Variable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadingUserInput .cs" />
