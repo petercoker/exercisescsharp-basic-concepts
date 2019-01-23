@@ -9,9 +9,15 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            Multiply_Variable multiply = new Multiply_Variable();
-            Console.WriteLine(multiply.Multi(3, 4));
+            
+            BasicCal basic = new BasicCal();
 
+            Console.Write("Enter a number: ");
+            int num1 = int.Parse(Console.ReadLine());
+            basic.GetCalAdd(num1);
+            basic.GetCalSub(num1);
+            basic.GetCalMul(num1);
+            basic.GetCalDiv(num1);
         }
     }
 }

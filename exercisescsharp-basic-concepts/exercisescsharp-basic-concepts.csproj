@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicCal.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Division.cs" />
     <Compile Include="Formats.cs" />
