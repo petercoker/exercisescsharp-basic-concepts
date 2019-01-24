@@ -51,6 +51,7 @@
     <Compile Include="Division.cs" />
     <Compile Include="Formats.cs" />
     <Compile Include="hello_world.cs" />
+    <Compile Include="Multi-Table.cs" />
     <Compile Include="Multiple-operations.cs" />
     <Compile Include="Multiply-Variable.cs" />
     <Compile Include="Program.cs" />
