@@ -50,6 +50,7 @@
     <Compile Include="BasicCal.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Division.cs" />
+    <Compile Include="Equivalent-operations.cs" />
     <Compile Include="Formats.cs" />
     <Compile Include="hello_world.cs" />
     <Compile Include="Multi-Table.cs" />

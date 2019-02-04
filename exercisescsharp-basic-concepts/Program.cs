@@ -8,9 +8,8 @@ namespace exercises_csharp_basic_concepts
     {
         static void Main(string[] args)
         {
-            Average average = new Average();
-            average.GetAverage();
-
+            Equivalent_operations equiv = new Equivalent_operations();
+            equiv.OutEquivalent();
         }
     }
 }
